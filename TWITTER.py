@@ -28,14 +28,14 @@ woeidus = '23424977'
 
 
 #Consumer API keys
-consumerkey = 'd7SVsbCsX1GZ3AShGLMpSJQ4M'
+consumerkey = ''
 #(API key)
-apisecretkey = 'nEhyxgjZ8l8CPxBVlnrIIZWTguOXsvN97VnuRQjbDYJnyQ8QWu'
+apisecretkey = ''
 # (API secret key)
 #Access token & access token secret
-accesstoken = '69279316-cMCE8h8cfqMQERDBIPbQtalhoci8gWkbTwoFRdSaF'
+accesstoken = ''
 # (Access token)
-accesstokensecret = 'w9uEyIAOr7Adlwxkpm8UI0JczafRfMjKhojpKn3U8sPLq'
+accesstokensecret = ''
 # (Access token secret)
 
 
@@ -82,7 +82,7 @@ dfx = pd.DataFrame(listOfTweets)
 
 #example of retrieving data from a mysql database
 import mysql.connector
-cnx = mysql.connector.connect(user='root', password='Lejms!2007',
+cnx = mysql.connector.connect(user='root', password='',
                               host='localhost',
                               database='twitter')
 cursor = cnx.cursor()
